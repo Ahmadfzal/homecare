@@ -18,7 +18,8 @@
     "esbuild": "^0.28.1", 
     "vite": "^5.0.0",
     "@types/node": "^22.0.0",
-    "@types/pg": "^8.11.0"
+    "@types/pg": "^8.11.0",
+    "@vitejs/plugin-react": "^4.3.0"
   },
   "devDependencies": {
     "prettier": "^3.8.3"
