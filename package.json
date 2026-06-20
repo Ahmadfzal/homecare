@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "npm run typecheck && npm run build --workspaces --if-present",
-    "typecheck:libs": "npx tsc --build",
+    "typecheck:libs": "tsc --build",
     "typecheck": "npm run typecheck:libs && npm run typecheck --workspace=./artifacts/* --workspace=./scripts --if-present"
   },
   "private": true,
